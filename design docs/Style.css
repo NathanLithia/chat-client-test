@@ -1,0 +1,74 @@
+body {
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 0;
+}
+
+.Main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.Branding{
+    float:left;
+}
+.Title{
+    width: 100%;
+    margin: 0;
+    align-items: top;
+    text-align:center;
+    background: #333333;
+}
+.Top{
+    Background: #3C3C3C;
+    height: 22px;
+    display: flex;
+    width: 100%;
+}
+.Left {
+    background: #333333;
+    height: 100%;
+    display: flex;
+    width: 72px;
+    position: relative;
+    vertical-align: baseline;
+    flex-flow: column;
+    float: left;
+}
+
+.Channels{
+    background: #2D2D2D;
+    height: 100%;
+    width: 240px;
+    display: flex;
+    float: left;
+}
+
+.Right{
+    background: #333333;
+    height: 100%;
+    display: flex;
+    width: 240px;
+    float:right;
+}
+
+.Footer{
+    align-items: bottom;
+    Background: #3C3C3C;
+    height: 53px;
+    width: 100%;
+}
+
+.Center{
+    background:#121212;
+    height: 100%;
+    width: auto;
+    display: flex;
+}
+
+.Input{
+    background:orange;
+    align-items: center;
+}
